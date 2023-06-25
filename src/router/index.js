@@ -31,10 +31,6 @@ const router = new VueRouter({
                             name: 'detail',
                             path: 'detail/:id/:title',
                             component: DetailComp,
-                            // 独享路由守卫
-                            beforeEnter: (to, from ,next)=>{
-
-                            },
 
                             // 如果值为真，就会把该路由组件收到的所有params参数，以props的形式传输给Detail组件
                             // props: true
