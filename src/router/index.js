@@ -10,6 +10,7 @@ import DetailComp from '../pages/DetailComp'
 
 // 创建一个路由器并暴露
 const router = new VueRouter({
+    mode:'history',
     routes: [
         {
             path: '/about',
